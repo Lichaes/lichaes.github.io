@@ -3,7 +3,7 @@
 	width: 100%;
 	margin: 0 auto;
 	/*background-color: #1d1d1d;*/
-	background-color: #dd872a;
+	background-color: #d030d5;
 }
 
 #pHeader {
@@ -20,7 +20,7 @@
 }
 
 #pHeader a:hover {
-	color: #dd872a;
+	color: #d030d5;
 }
 
 #pHeader h1 {
@@ -31,7 +31,7 @@
 	margin: 0 auto;
 	line-height: 0.8;
 	letter-spacing: 2px;
-	color: #dd872a;
+	color: #d030d5;
 }
 
 #pHeader h2 {
@@ -61,7 +61,7 @@ body {
 }
 
 #pContent a {
-	color:#dd872a;
+	color:#d030d5;
 }
 
 /* Collapse */
@@ -75,7 +75,7 @@ input[type='checkbox'] {
 	cursor: pointer;
 	padding-top: 20px;
 	width: 100%;
-	border-top: 1px dotted #dd872a;
+	border-top: 1px dotted #d030d5;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
@@ -115,7 +115,7 @@ input[type='checkbox'] {
 /* Large, Colored Text */
 #pContent h1 {
 	font-family: "Cormorant Unicase";
-	color: #dd872a;
+	color: #d030d5;
 	font-size: 1.5em;
 	margin-top: 0px;
 	letter-spacing: 2px;
@@ -151,7 +151,7 @@ input[type='checkbox'] {
 /* Blockquote */
 blockquote {
 	background: #1d1d1d;
-	border-left: 10px solid #dd872a;
+	border-left: 10px solid #d030d5;
 	margin: 1.5em 10px;
 	font-size: 1.0em;
 	padding: 0.5em 10px;
@@ -159,7 +159,7 @@ blockquote {
 
 /* Dotted Line */
 
-hr.dots {border-top: 1px dotted #dd872a; padding: 0px 0px 0px 0px; margin: 0;}
+hr.dots {border-top: 1px dotted #d030d5; padding: 0px 0px 0px 0px; margin: 0;}
 
 /* Mobile */
 
