@@ -1,0 +1,98 @@
+body {
+    font-family: 'Comic Sans MS';
+}
+
+.background {
+    background-color: #030414;
+    position: fixed;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.skeleton1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 270px;
+    width: 270px;
+}
+
+.skeleton2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: scaleX(-1);
+    height: 270px;
+    width: 270px;
+}
+
+.title {
+    position: absolute;
+    top: 33%;
+    left: calc(50% - 10rem);
+    color: white;
+
+}
+.message {
+    color: orange;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+
+.spin { animation:spin 4s linear infinite; }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.size-bounce { 
+    transform-origin: center center;
+    animation:textsizebounce 1.3s ease-in-out infinite; 
+}
+@keyframes textsizebounce { 
+    100% { transform: scale(0.777); }
+    50% { transform: scale(1); }
+    0% { transform: scale(0.777); }
+}
+
+
+.arrowc1 {
+    position: fixed;
+    height: 270px;
+    width: 270px;
+    top: 30%;
+    left: 15%
+}
+
+.arrow {
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    animation: wiggle 1.7s cubic-bezier(0.460, 0.120, 0.585, 0.950) infinite; 
+    transform: rotate(90deg);
+}
+@keyframes wiggle { 
+    100% { transform: rotate(-130deg) translateX(100px); }
+    50% { transform: rotate(-130deg) translateX(0px); }
+    0% { transform: rotate(-130deg) translateX(100px); }
+}
+
+.moon {
+    position: absolute;
+    top: 10%;
+    right:10%;
+    height: 270px;
+    width: 270px;
+}
+.jackolantern {
+    position: absolute;
+    bottom: 10%;
+    left:20%;
+    font-size: 72px;
+}
